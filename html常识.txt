@@ -1,0 +1,36 @@
+1.W3C简介
+W3C，这个建立于 1994 年的组织，其宗旨是通过促进通用协议的发展并确保其通用型，以激发 web 世界的全部潜能。
+W3C 指万维网联盟（World Wide Web Consortium）；
+W3C 创建于1994年10月；
+W3C 由 Tim Berners-Lee创建；
+W3C 是一个会员组织；
+W3C 的工作是对 web 进行标准化；
+W3C 创建并维护 WWW 标准；
+W3C 标准被称为 W3C 推荐（W3C Recommendations）。
+
+
+2.MDN 简介
+MDN Web Docs（旧称Mozilla Developer Network、Mozilla Developer Center，简称MDN）是一个汇集众多Mozilla基
+金会产品和网络技术开发文档的免费网站。
+
+3.HTML基础标签
+<!DOCTYPE>      定义文档类型
+<html></html>   定义html文档
+<title></title> 定义文档的标题
+<body></body>   定义文档的主体
+<h1> to <h6>    定义 HTML 标题
+<p>    		定义一个段落
+<br>            定义简单的折行
+<hr>            定义水平线。
+<!--...-->	定义一个注释
+
+4.空标签简介
+没有闭合的标签称为空标签，如：<br />和<img />等。他们不存在成对的情况（<colgroup>除外）反之具有成对性质
+的例如：<div></div>、<form></form>就不是空标签。在HTML中，在空标签上使用闭标签是无效的，例如：</br>。这
+样的情况是无效的HTML。
+
+5.可替换标签
+在CSS里，可替换元素(replaced element)的展现不是由CSS来控制的。这些元素是一类外观渲染独立于CSS的外部对象。
+典型的可替换元素有<img>、<object>、<video>和表单元素，如<textarea>、<input>。某些元素只在一些特殊情况下
+表现为可替换元素，例如<audio>和<canvas>。通过CSS的content属性来插入的对象被称为匿名可替换对象(annoymous replaced elements)。
+
