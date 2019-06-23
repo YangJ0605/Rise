@@ -1,0 +1,39 @@
+1.HTML标题
+	<h1> to <h6> 字体从大到小
+
+2.HTML水平
+	<hr> 样式看通过CSS设置
+
+3.HTML段落以及强制换行
+	<P> <br>
+
+4.HTML文本格式化
+	<b> <biq> <em> <i> <small> <strong> <sub> 
+
+5.HTML超链接<a>与<iframe>
+	<iframe src="https://www.baidu.com" name="xxx"></iframe>
+	<a href="" target="xxx"></a>  a与iframe两个通过name配套使用
+	a自身的target有四个属性：_blank _self _parent _top，请求是get。
+	href="#" 锚点为#，且点击后跳转到页面顶部
+	downloa 下载  herf="javascript:;"不跳转
+
+6.HTML的图像 <img> 
+	alt 定义当图片无法加载时，显示什么信息
+
+7.HTML的表格<table> <colgroup> <form> <input>
+	table 中有 thead tbody tfoot，而这三者下面又嵌套tr td，假如表头的话td用th
+	代替。table 中的 thead tbody tfoot跟书写顺服无关，都是按照自己的顺序排列，
+	即thead→tbody→tfoot。若是不存在这三个标签，则浏览器会默认的把内容加至tbody
+	中,按照书写顺序排列。
+	colgroup 与col是配套使用的，每一个col对应一列，它们的背景颜色可以用bgcolor表示。
+	form是用来提交表单的，提交方式有get，post（不支持file协议）。在form中，必须有提交
+	按钮。<input type="submit"> 或者 只有<button></button>。
+	label直接嵌套标签不用给ID。
+	复选框 <input type="checkbox">
+	单选框 <input type="radio">
+	下拉选择 selected 默认选择  disabled 不可被选择
+	<select name="" id="" multiple（多选）>
+            <option value="">-</option>
+        </select>
+	textarea
+	input 属性必须得给name属性，提交的时候可以显示到请求数据里。
